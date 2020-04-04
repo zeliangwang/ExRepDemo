@@ -1,0 +1,206 @@
+/*Fonts ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F3F4F9;
+  font-family: 'Roboto';
+  color: #203cb3;
+}
+
+.top-banner {
+  background: rgb(2,21,70);
+  color: white;
+  /* padding: 12px; */
+  /* padding-left: 8px; */
+}
+
+.div-logo{
+  display: inline-block;
+  float: right;
+}
+
+.div-logo-left{
+  display: inline-block;
+  float: left;
+}
+
+.logo{
+  height: 35px;
+  /* padding: 6px; */
+  /* margin-top: 20px; */
+  /* margin-bottom: 15px; */
+  /* margin-right: 15px; */
+  padding-top: 18px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.logo-left{
+  height: 50px;
+  padding-top: 12px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  /* margin-top: 5px; */
+}
+
+.h2-title, .h2-title-mobile{
+  font-family: 'Roboto';
+  display: inline-block;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: 25px;
+  padding-top: 6px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  /* margin-top: 30px; */
+}
+
+.h2-title-mobile{
+  display: none;
+}
+
+h5, h6{
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h5{
+  padding-left: 42px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; 
+  color: white;
+}
+
+.bg-white{
+  background-color: white;
+  padding: 24px 32px;
+  height: 550px;
+}
+
+.bg-white-control-panel{
+  background-color: white;
+  padding: 24px 32px;
+  height: 820px;
+}
+
+.app-body{
+  margin-left: 1%;
+}
+
+.card{
+  padding:48px 24px 48px 24px;
+  margin-left: 2%;
+}
+
+.card-left{
+  padding:48px 24px 48px 24px;
+  margin-left: 0px;
+}
+
+.padding-top-bot{
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.upload{
+  width: 100%;
+  line-height: 60px;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.upload p, .upload a {
+  display: inline;
+}
+
+.Select-control{
+  border: 1px solid #203cb3;
+}
+
+@media only screen and (max-width: 320px){
+  .Select-menu-outer, .Select-value{
+    font-size: 10.5px;
+  }
+  .upload{
+    padding: 5px;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .upload{
+    line-height: 60px;
+    border-width: 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    text-align: center;
+    font-size: small;
+  }
+
+  .columns{
+    width: 100%;
+  }
+
+  .card, .card-left{
+    padding: 24px;  
+    margin: 0px;
+  } 
+
+  .bg-white{
+    height: auto;
+  }
+  
+  .top-banner{
+    padding-left: 24px;
+  }
+
+  .logo{
+    height: 28px;
+    padding-left:0px;
+    padding-bottom:0px;
+  }
+
+  .div-logo{
+    float: left;
+    display: block;
+    width: 100%;
+  }
+
+  .h2-title{
+    display:none;
+  }
+
+  .h2-title-mobile{
+    display:block;
+    float:left;
+  }
+
+  .app-body{
+    margin-left: 0px;
+  }
+
+  .three.columns                  { width: 100%; }
+  .four.columns                   { width: 100%; }
+  .eight.columns                  { width: 100%; }
+  .nine.columns                  { width: 100%; }
+
+  .columns{
+    text-align: center;
+  }
+
+  .user-control{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
